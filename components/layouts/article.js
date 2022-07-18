@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import Head from 'next/head'
+import { CarouselStyle } from '../carousel'
 import { GridItemStyle } from '../grid-item'
 
 const variants = {
@@ -29,6 +30,7 @@ const Layout = ({ children, title }) => {
           </Head>
         )}
         {children}
+        <CarouselStyle />
         <GridItemStyle />
       </>
     </motion.article>
