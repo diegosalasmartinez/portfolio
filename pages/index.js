@@ -42,7 +42,7 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2000</BioYear>
-            Born in Lima, Perú.
+            Born in Lima, Peru.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
@@ -75,7 +75,7 @@ const Home = () => {
             <BioYear>2022</BioYear>
             Completed the Degree in Informatics Engineering at{' '}
             <Link href="https://www.pucp.edu.pe/" target="_blank">
-              Pontificia Universidad Católica del Perú
+              Pontificia Universidad Católica del Peru
             </Link>
             .
           </BioSection>

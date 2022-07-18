@@ -32,7 +32,7 @@ const HeroImage = () => {
     >
       <Box w="220px" h="220px" display="inline-block" overflow="hidden">
         <StyledImage
-          src="/images/header-img.svg"
+          src="/images/hero.svg"
           alt="Profile image"
           borderRadius="full"
           width="100%"
