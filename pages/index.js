@@ -24,8 +24,7 @@ const Home = () => {
             About me
           </Heading>
           <Paragraph>
-            I started programming in C when I was 15 years old. Since then, I
-            was very interested in the development world. Now I&apos;m studying
+            I started programming in C when I was 15 years old. Since then, I&apos;ve been very interested in the development world. Now I&apos;m studying
             Informatics Engineering and what I like the most is bringing ideas
             to reality in the most simplest, useful and attractive way.
           </Paragraph>

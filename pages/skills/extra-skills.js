@@ -4,32 +4,24 @@ import { SkillsCarousel } from '../../components/carousel'
 
 const skills = [
   {
-    src: '/icons/react.png',
-    alt: 'React'
+    src: '/icons/terminal.png',
+    alt: 'Terminal'
   },
   {
-    src: '/icons/next.png',
-    alt: 'Next'
+    src: '/icons/git.png',
+    alt: 'Git'
   },
   {
-    src: '/icons/html.png',
-    alt: 'Html'
+    src: '/icons/jira.png',
+    alt: 'Jira'
   },
   {
-    src: '/icons/css.png',
-    alt: 'CSS'
-  },
-  {
-    src: '/icons/js.png',
-    alt: 'JS'
-  },
-  {
-    src: '/icons/figma.png',
-    alt: 'Figma'
+    src: '/icons/ai.png',
+    alt: 'Adobe Illustrator'
   }
 ]
 
-const FrontSkills = () => {
+const ExtraSkills = () => {
   return (
     <SkillsCarousel>
       {skills.map((s, id) => {
@@ -52,4 +44,4 @@ const FrontSkills = () => {
   )
 }
 
-export default FrontSkills
+export default ExtraSkills
