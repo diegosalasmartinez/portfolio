@@ -4,14 +4,6 @@ import { SkillsCarousel } from '../../components/carousel'
 
 const skills = [
   {
-    src: '/icons/figma.png',
-    alt: 'Figma'
-  },
-  {
-    src: '/icons/git.png',
-    alt: 'Git'
-  },
-  {
     src: '/icons/react.png',
     alt: 'React'
   },
@@ -21,7 +13,15 @@ const skills = [
   },
   {
     src: '/icons/css.png',
-    alt: 'Css'
+    alt: 'CSS'
+  },
+  {
+    src: '/icons/js.png',
+    alt: 'JS'
+  },
+  {
+    src: '/icons/figma.png',
+    alt: 'Figma'
   }
 ]
 
@@ -33,7 +33,12 @@ const FrontSkills = () => {
           <motion.div
             key={id}
             className="item-carousel"
-            style={{ minHeigth: '200px', minWidth: '200px', maxHeigth: '200px', maxWidth: '200px'}}
+            style={{
+              minHeigth: '200px',
+              minWidth: '200px',
+              maxHeigth: '200px',
+              maxWidth: '200px'
+            }}
           >
             <Image src={s.src} alt={s.alt} w="100%" h="100%" />
           </motion.div>
