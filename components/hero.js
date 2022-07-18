@@ -66,7 +66,7 @@ const Hero = () => {
 
   return (
     <Box p={2} my={6} display="flex">
-      <Box minH={140} w="60%">
+      <Box w="60%">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
