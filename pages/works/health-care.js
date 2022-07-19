@@ -30,7 +30,7 @@ const Work = () => {
               <span>React, NodeJS, MongoDB</span>
             </ListItem>
           </List>
-          <WorkImage src="/images/logo-section.png" alt="Health Care" />
+          <WorkImage src="/images/health-care.png" alt="Health Care" />
         </Section>
       </Container>
     </Layout>
