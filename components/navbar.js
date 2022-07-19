@@ -76,9 +76,9 @@ const Navbar = props => {
           <LinkItem href="/skills" path={path}>
             Skills
           </LinkItem>
-          <LinkItem href="/contact" path={path}>
+          {/* <LinkItem href="/contact" path={path}>
             Contact
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
         <Box flex={1} align="right">
           <ThemeToggleButton />
@@ -100,9 +100,9 @@ const Navbar = props => {
                 <NextLink href="/skills" passHref>
                   <MenuItem as={Link}>Skills</MenuItem>
                 </NextLink>
-                <NextLink href="/contact" passHref>
+                {/* <NextLink href="/contact" passHref>
                   <MenuItem as={Link}>Contact</MenuItem>
-                </NextLink>
+                </NextLink> */}
               </MenuList>
             </Menu>
           </Box>
