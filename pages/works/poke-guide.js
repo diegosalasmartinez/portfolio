@@ -7,31 +7,32 @@ import { Meta, Title, WorkImage } from '../../components/work'
 
 const Work = () => {
   return (
-    <Layout title="Antisocial">
+    <Layout title="Poke Guide">
       <Container maxW="container.md">
         <Section delay={0.1}>
-          <Title>Antisocial</Title>
+          <Title>Poke Guide</Title>
           <Paragraph>
-            A social page inspired on Twitter with create a post, search for
-            categories, look for recommendations and more.
+            Inspired on Pokedex, this app shows you all the information related
+            to pokemons (and his evoluions), items and berries you can find in
+            the game.
           </Paragraph>
           <List ml={4} my={4}>
             <ListItem>
-              <Meta>Social page</Meta>
+              <Meta>Web page</Meta>
               <Link
-                href="https://diegosalas-antisocial.web.app"
+                href="https://diegosalas-pokeguide.web.app/pokedex"
                 target="_blank"
               >
-                https://diegosalas-antisocial.web.app
+                https://diegosalas-pokeguide.web.app/pokedex
                 <ExternalLinkIcon mx="2px" />
               </Link>
             </ListItem>
             <ListItem>
               <Meta>Stack</Meta>
-              <span>React, NodeJS, MongoDB</span>
+              <span>React, Sass</span>
             </ListItem>
           </List>
-          <WorkImage src="/images/logo-section.png" alt="Antisocial" />
+          <WorkImage src="/images/pokeguide.png" alt="PokeGuide" />
         </Section>
       </Container>
     </Layout>

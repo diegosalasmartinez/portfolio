@@ -7,27 +7,30 @@ import { Meta, Title, WorkImage } from '../../components/work'
 
 const Work = () => {
   return (
-    <Layout title="PokeGuide">
+    <Layout title="Health Care">
       <Container maxW="container.md">
         <Section delay={0.1}>
-          <Title>PokeGuide</Title>
+          <Title>Health Care</Title>
           <Paragraph>
-            Inspired on Pokedex, this app shows you all the information related to pokemons (and his evoluions), items and berries you can find in the game.
+            A hospital admin app easy to use where you can place your appointments, manage your staff and users, get historic reports and more.
           </Paragraph>
           <List ml={4} my={4}>
             <ListItem>
-              <Meta>Web page</Meta>
-              <Link href="https://diegosalas-pokeguide.web.app/pokedex" target="_blank">
-              https://diegosalas-pokeguide.web.app/pokedex
+              <Meta>Admin page</Meta>
+              <Link
+                href="https://diegosalas-healthcare.web.app"
+                target="_blank"
+              >
+                https://diegosalas-healthcare.web.app
                 <ExternalLinkIcon mx="2px" />
               </Link>
             </ListItem>
             <ListItem>
               <Meta>Stack</Meta>
-              <span>React</span>
+              <span>React, NodeJS, MongoDB</span>
             </ListItem>
           </List>
-          <WorkImage src="/images/pokeguide.png" alt="PokeGuide" />
+          <WorkImage src="/images/logo-section.png" alt="Health Care" />
         </Section>
       </Container>
     </Layout>

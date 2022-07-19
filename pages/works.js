@@ -14,7 +14,7 @@ const Works = () => {
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="antisocial" title="Antisocial" thumbnail={thumbPokeGuide}>
+            <WorkGridItem id="antisocial" title="Antisocial" thumbnail={thumbWork}>
               Esta es mi primera aplicacion
             </WorkGridItem>
           </Section>
@@ -24,7 +24,7 @@ const Works = () => {
             </WorkGridItem>
           </Section> 
           <Section>
-            <WorkGridItem id="pokeguide" title="PokeGuide" thumbnail={thumbPokeGuide}>
+            <WorkGridItem id="poke-guide" title="Poke Guide" thumbnail={thumbPokeGuide}>
               Pokedex app where you can see pokemons, items and berries.
             </WorkGridItem>
           </Section>

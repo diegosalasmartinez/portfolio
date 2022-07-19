@@ -12,6 +12,10 @@ const skills = [
     alt: 'Next'
   },
   {
+    src: '/icons/js.png',
+    alt: 'JS'
+  },
+  {
     src: '/icons/html.png',
     alt: 'Html'
   },
@@ -20,8 +24,8 @@ const skills = [
     alt: 'CSS'
   },
   {
-    src: '/icons/js.png',
-    alt: 'JS'
+    src: '/icons/sass.png',
+    alt: 'Sass'
   },
   {
     src: '/icons/figma.png',
