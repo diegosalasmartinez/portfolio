@@ -1,6 +1,8 @@
 ## Stack
 Hi! I'm Diego Salas. 22. Software Developer. You can read about me [here](https://portfolio-diegosalasmartinez.vercel.app/)
 
+![App thumbnail](./doc/thumb.png)
+
 ## Stack
 
 - [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
