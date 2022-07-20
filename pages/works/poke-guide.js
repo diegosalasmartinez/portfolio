@@ -31,6 +31,16 @@ const Work = () => {
               <Meta>Stack</Meta>
               <span>React, Sass</span>
             </ListItem>
+            <ListItem>
+              <Meta>GitHub</Meta>
+              <Link
+                href="https://github.com/diegosalasmartinez/poke-guide"
+                target="_blank"
+              >
+                https://github.com/diegosalasmartinez/poke-guide
+                <ExternalLinkIcon mx="2px" />
+              </Link>
+            </ListItem>
           </List>
           <WorkImage src="/images/pokeguide.png" alt="PokeGuide" />
         </Section>

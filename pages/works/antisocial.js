@@ -30,6 +30,16 @@ const Work = () => {
               <Meta>Stack</Meta>
               <span>React, NodeJS, MongoDB</span>
             </ListItem>
+            <ListItem>
+              <Meta>GitHub</Meta>
+              <Link
+                href="https://github.com/diegosalasmartinez/antisocial"
+                target="_blank"
+              >
+                https://github.com/diegosalasmartinez/antisocial
+                <ExternalLinkIcon mx="2px" />
+              </Link>
+            </ListItem>
           </List>
           <WorkImage src="/images/antisocial.png" alt="Antisocial" />
         </Section>
