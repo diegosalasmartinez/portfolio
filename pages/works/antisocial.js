@@ -12,8 +12,8 @@ const Work = () => {
         <Section delay={0.1}>
           <Title>Antisocial</Title>
           <Paragraph>
-            A social page inspired on Twitter with create a post, search for
-            categories, look for recommendations and more.
+            A social page inspired on Twitter with a lot of features like create
+            a post, search for categories, look for recommendations and more.
           </Paragraph>
           <List ml={4} my={4}>
             <ListItem>

@@ -9,23 +9,35 @@ import thumbPokeGuide from '../public/images/pokeguide.png'
 const Works = () => {
   return (
     <Layout>
-      <Container maxW='container.md'>
+      <Container maxW="container.md">
         <Heading as="h3" variant="section-title" fontSize={20} mb={6}>
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="antisocial" title="Antisocial" thumbnail={thumbAntisocial}>
-              Esta es mi primera aplicacion
+            <WorkGridItem
+              id="antisocial"
+              title="Antisocial"
+              thumbnail={thumbAntisocial}
+            >
+              A social page inspired on Twitter.
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="health-care" title="Health Care" thumbnail={thumbHealthCare}>
-              Esta es mi segunda aplicacion
+            <WorkGridItem
+              id="health-care"
+              title="Health Care"
+              thumbnail={thumbHealthCare}
+            >
+              A hospital admin app easy to use.
             </WorkGridItem>
-          </Section> 
+          </Section>
           <Section>
-            <WorkGridItem id="poke-guide" title="Poke Guide" thumbnail={thumbPokeGuide}>
+            <WorkGridItem
+              id="poke-guide"
+              title="Poke Guide"
+              thumbnail={thumbPokeGuide}
+            >
               Pokedex app where you can see pokemons, items and berries.
             </WorkGridItem>
           </Section>
